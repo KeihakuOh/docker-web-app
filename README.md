@@ -11,10 +11,10 @@ cd ..
 ## Frontend のセットアップ
 
 ```
+npm create vite@latest frontend -- --template react
 cd frontend
-npm init -y
-npm install react react-dom @types/react @types/react-dom typescript
-npx tsc --init
+npm install
+npm run dev
 cd ..
 ```
 
@@ -23,5 +23,3 @@ cd ..
 ```
 docker-compose up --build
 ```
-
-
